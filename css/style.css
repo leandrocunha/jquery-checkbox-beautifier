@@ -1,0 +1,20 @@
+#ck-beautifier-wrapper {
+	position: relative;
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	z-index: 1;
+}
+#ck-beautifier-wrapper span {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url('../img/sprite-checkbox.png') -2px -2px no-repeat;
+	height: 14px;
+	width: 14px;
+	z-index: 100;
+}
+#ck-beautifier-wrapper span:hover { background-position: -20px -2px; }
+#ck-beautifier-wrapper span.checked { background-position: -2px -19px; }
+#ck-beautifier-wrapper span.checked:hover { background-position: -20px -19px; }
